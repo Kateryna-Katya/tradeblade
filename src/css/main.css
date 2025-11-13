@@ -3,3 +3,109 @@
     padding-top:40px;
     padding-bottom:37px;
 }
+.hero-title{
+    font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 1.25714;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        color: #fff;
+        margin-top: 33px;
+        margin-bottom: 16px;
+}
+.hero-text{
+    font-size: 16px;
+    line-height: 1.25;
+        color: #e7f7f8;
+        opacity: 0.8;
+}
+.subscribe-form {
+    border-radius: 4px;
+       border-radius: 4px;
+        width: 343px;
+        height: 50px; 
+         position: relative;
+         margin-top: 24px;
+}
+.hero-input{
+border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #201a4f;
+    color: #CFCFFC;
+    font-size: 14px;
+    padding: 15px 16px;
+}
+
+.hero-btn {   
+border: 1px solid #57e1ff;
+    border-radius: 4px;
+    padding: 11px 24px;
+    width: 102px;
+    height: 42px;
+    transition: 0.3s;
+    position: absolute;
+    right: 2%;
+    top: 8%;  
+    font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+            line-height: 1.42857;
+        text-transform: uppercase;
+        color: #030718;
+}
+.hero-btn:hover {
+    background-color: #2CB8E5;
+}
+.form-message {
+    color: #57e1ff;
+    margin-left: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.hero-bottom-text{
+    margin-top: 22px;
+    opacity: 0.3;
+    line-height: 1.42857;
+}
+@media only screen and (min-width: 1440px) {
+.hero-conatiner {
+        padding-top: 160px;
+        padding-bottom: 134px;
+        display: flex;
+        gap: 128px;
+}
+.hero-img-wrapper{
+    order: 2;
+}
+.hero-wrapper{
+    width: 630px;
+}
+.hero-title{
+    margin-top: 0;
+        font-size: 60px;
+        line-height: 1.2;
+        margin-bottom: 12px;
+}
+.hero-text{
+    width: 565px;
+}
+.subscribe-form{
+width: 500px;
+    height: 60px;
+}
+.hero-btn{
+    width: 109px;
+        height: 52px;
+        right: 1%;
+        top: 6%;
+        padding: 16px 24px;
+}
+.hero-input{
+    height: 60px;
+  
+}
+}
