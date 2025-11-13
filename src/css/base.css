@@ -31,3 +31,10 @@ button{
     box-shadow: 0 0 4px 0 #57e1ff;
       background: #57e1ff;
 }
+@media only screen and (min-width: 1440px) {
+  h2{
+      font-size: 44px;
+      line-height: 1.27273;
+      color: #fff;
+  }
+}

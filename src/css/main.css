@@ -105,7 +105,77 @@ width: 500px;
         padding: 16px 24px;
 }
 .hero-input{
-    height: 60px;
-  
+    height: 60px;  
 }
+}
+/* Numbers */
+.numbers-section{
+    background-image: url("/img/numbers/numbers-mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.number-conteiner{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.numbers-title{
+color: #000;
+}
+.date-text{
+    opacity: 0.5;
+    letter-spacing: -0.04em;
+        color: #000;
+        margin-top: 2px;
+        margin-bottom: 40px;
+}
+.numbers-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.numbers-item{
+    width: 136px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.item-title{
+    line-height: 1.42857;
+        text-transform: uppercase;
+        color: #000;
+        opacity: 0.8;
+}
+.item-number{
+font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #6a54ff;
+}
+@media only screen and (min-width: 1440px) {
+   .numbers-section{
+    background-image: url("/img/numbers/nubmers-desk.png");
+   }
+   .number-conteiner{
+    padding-top: 116px;
+    padding-bottom: 60px;
+    display: flex;
+    gap: 156px;
+   }
+   .date-text{
+    margin-top: 4px;
+    margin-bottom: 0;
+   }
+   .numbers-list{
+    gap: 10px;
+   }
+   .numbers-item{
+    width: 310px;
+   }
+   .item-number{
+    font-size: 60px;
+   }
 }
